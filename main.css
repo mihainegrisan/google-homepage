@@ -1,0 +1,71 @@
+#top-menu {
+    text-align: right;
+}
+#right-menu, #profile-picture {
+    width: 2%;
+    height: auto;
+}
+
+main {
+    text-align: center;
+}
+
+#logo {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+#search-box {
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 5px 20px;
+    width: 37%;
+    height: 25px;
+    border-radius: 15px;
+}
+button {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    background-color: #eee;
+}
+button:hover {
+    border: 0.5px solid grey;
+}
+footer {
+    background: #eee;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding-top: 0;
+}
+footer p:first-child {
+    text-align: left;
+    font-size: 20px;
+    border-top: 0.1px solid grey;
+    border-bottom: 0.1px solid grey;
+
+}
+#left-links {
+    float: left;
+    margin-left: 25px;
+}
+#right-links {
+    margin-bottom: 10px;
+    float: right;
+    padding-right: 25px;;
+}
+footer a {
+    padding: 12px;
+    font-size: 15px;
+}
